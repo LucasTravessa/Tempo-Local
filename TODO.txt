@@ -1,0 +1,4 @@
+Barra de pesquisa em cima, para não precisar voltar no home.
+Consertar o ao longo do dia para exibir só 8 respostas.
+Ajeitar a hora.
+Nos proximos dias botar a hora e dia da semana.

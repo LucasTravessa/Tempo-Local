@@ -24,12 +24,12 @@
 
       <BaseModal :modalActive="modalActive" @close-modal="toggleModal">
         <div class="text-black">
-          <h1 class="text-2xl mb-1">About:</h1>
+          <h1 class="text-2xl mb-1">Sobre:</h1>
           <p class="mb-4">
             O Local Weather permite que você acompanhe o clima atual e futuro
             das cidades de sua escolha.
           </p>
-          <h2 class="text-2xl">How it works:</h2>
+          <h2 class="text-2xl">Como funciona:</h2>
           <ol class="list-decimal list-inside mb-4">
             <li>
               Procure pela sua cidade digitando o nome na barra de pesquisa.
@@ -45,7 +45,7 @@
             </li>
           </ol>
 
-          <h2 class="text-2xl">Removing a city</h2>
+          <h2 class="text-2xl">Removendo cidade</h2>
           <p>
             Se você não quiser mais acompanhar uma cidade, basta selecionar a
             cidade na página inicial. Na parte inferior da página, haverá uma
