@@ -5,7 +5,7 @@
         type="text"
         v-model="searchQuery"
         @input="getSearchResults"
-        placeholder="Search for a city or state"
+        placeholder="Procure por cidade ou estado"
         class="py-2 px-1 w-full bg-transparent border-b focus:border-weather-secondary focus:outline-none focus:shadow-[0px_1px_0_0_#004E71]"
       />
       <ul
@@ -70,7 +70,7 @@ const getSearchResults = () => {
   quearyTimeout.value = setTimeout(async () => {
     if (searchQuery.value !== "") {
       await fetch(
-        `http://api.openweathermap.org/geo/1.0/direct?q=${
+        `https://api.openweathermap.org/geo/1.0/direct?q=${
           searchQuery.value
         }&limit=5&appid=${import.meta.env.VITE_OPEN_WEATHER_API_KEY}`
       )
